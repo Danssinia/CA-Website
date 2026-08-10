@@ -20,13 +20,13 @@ const Footer = () => {
 
                         {/* Social Icons */}
                         <div className="flex items-center gap-3">
-                            <a href="#" className="w-9 h-9 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#F28C28] hover:text-[#F28C28] transition-colors">
+                            <a href="#" className="w-9 h-9 rounded-lg border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#F28C28] hover:text-[#F28C28] transition-colors">
                                 in
                             </a>
-                            <a href="#" className="w-9 h-9 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#F28C28] hover:text-[#F28C28] transition-colors">
+                            <a href="#" className="w-9 h-9 rounded-lg border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#F28C28] hover:text-[#F28C28] transition-colors">
                                 f
                             </a>
-                            <a href="#" className="w-9 h-9 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#F28C28] hover:text-[#F28C28] transition-colors">
+                            <a href="#" className="w-9 h-9 rounded-lg border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#F28C28] hover:text-[#F28C28] transition-colors">
                                 ig
                             </a>
                         </div>
@@ -62,16 +62,16 @@ const Footer = () => {
                         <ul className="space-y-3 text-gray-400 text-sm">
                             <li>
                                 <a href="mailto:info@gvjassociates.com" className="hover:text-[#F28C28] transition-colors">
-                                    info@gvjassociates.com
+                                    info@example.com
                                 </a>
                             </li>
                             <li>
                                 <a href="tel:+919876543210" className="hover:text-[#F28C28] transition-colors">
-                                    +91 98765 43210
+                                    +91 ***** *****
                                 </a>
                             </li>
                             <li className="pt-2 text-gray-500 text-xs leading-relaxed">
-                                Mumbai | Pune | Delhi NCR
+                                Address | address | address
                             </li>
                         </ul>
                     </div>

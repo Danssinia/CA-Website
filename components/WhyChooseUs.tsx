@@ -1,3 +1,5 @@
+import { BriefcaseBusiness, Handshake, SwatchBook, Users } from "lucide-react"
+
 const WhyChooseUs = () => {
     return (
         <section className="bg-white py-16 lg:py-24">
@@ -94,7 +96,7 @@ const WhyChooseUs = () => {
                         <div className="grid grid-cols-2 gap-4">
                             {/* Card 1 */}
                             <div className="bg-white border border-gray-100 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                                <div className="text-[#1F4E79] text-3xl mb-3">💼</div>
+                                <div className="flex justify-center items-center text-[#1F4E79] text-3xl mb-3"><BriefcaseBusiness size={30} /></div>
                                 <div className="text-[#F28C28] text-2xl font-bold">15+</div>
                                 <div className="text-[#1F4E79] text-xs font-medium tracking-wider uppercase mt-1">
                                     Years of Practice
@@ -103,7 +105,7 @@ const WhyChooseUs = () => {
 
                             {/* Card 2 */}
                             <div className="bg-white border border-gray-100 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                                <div className="text-[#1F4E79] text-3xl mb-3">🤝</div>
+                                <div className="flex justify-center items-center text-[#1F4E79] text-3xl mb-3"><Handshake size={30} /></div>
                                 <div className="text-[#F28C28] text-2xl font-bold">1200+</div>
                                 <div className="text-[#1F4E79] text-xs font-medium tracking-wider uppercase mt-1">
                                     Clients Served
@@ -112,7 +114,7 @@ const WhyChooseUs = () => {
 
                             {/* Card 3 */}
                             <div className="bg-white border border-gray-100 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                                <div className="text-[#1F4E79] text-3xl mb-3">📚</div>
+                                <div className="flex justify-center items-center text-[#1F4E79] text-3xl mb-3"><SwatchBook size={30} /></div>
                                 <div className="text-[#F28C28] text-2xl font-bold">9+</div>
                                 <div className="text-[#1F4E79] text-xs font-medium tracking-wider uppercase mt-1">
                                     Core Service Areas
@@ -121,7 +123,7 @@ const WhyChooseUs = () => {
 
                             {/* Card 4 */}
                             <div className="bg-white border border-gray-100 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-                                <div className="text-[#1F4E79] text-3xl mb-3">👥</div>
+                                <div className="flex justify-center items-center text-[#1F4E79] text-3xl mb-3"><Users size={30} /></div>
                                 <div className="text-[#F28C28] text-2xl font-bold">3</div>
                                 <div className="text-[#1F4E79] text-xs font-medium tracking-wider uppercase mt-1">
                                     Expert Partners

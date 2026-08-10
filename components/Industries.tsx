@@ -1,3 +1,5 @@
+import { Building2, CarFront, Factory, HandCoins, HeartPulse, Landmark, Laptop, Leaf, Rocket, ShelvingUnit, Shirt, ShoppingCart } from "lucide-react";
+
 const Industries = () => {
     return (
         <section className="bg-white py-16 lg:py-24">
@@ -25,18 +27,18 @@ const Industries = () => {
 
                     {/* Item */}
                     {[
-                        { icon: "🚗", title: "Automobiles" },
-                        { icon: "🛒", title: "Consumer Goods" },
-                        { icon: "🌿", title: "Energy & Environment" },
-                        { icon: "💰", title: "Financial Services" },
-                        { icon: "🏦", title: "Banking & NBFC" },
-                        { icon: "🏭", title: "Manufacturing" },
-                        { icon: "🏪", title: "Retail / Wholesale Trading" },
-                        { icon: "🏢", title: "Real Estate" },
-                        { icon: "❤️", title: "Healthcare" },
-                        { icon: "💻", title: "Information Technology" },
-                        { icon: "👕", title: "Textile & Apparel" },
-                        { icon: "🚀", title: "Startups & SMEs" },
+                        { icon: <CarFront />, title: "Automobiles" },
+                        { icon: <ShoppingCart />, title: "Consumer Goods" },
+                        { icon: <Leaf />, title: "Energy & Environment" },
+                        { icon: <HandCoins />, title: "Financial Services" },
+                        { icon: <Landmark />, title: "Banking & NBFC" },
+                        { icon: <Factory />, title: "Manufacturing" },
+                        { icon: <ShelvingUnit />, title: "Retail / Wholesale Trading" },
+                        { icon: <Building2 />, title: "Real Estate" },
+                        { icon: <HeartPulse />, title: "Healthcare" },
+                        { icon: <Laptop />, title: "Information Technology" },
+                        { icon: <Shirt />, title: "Textile & Apparel" },
+                        { icon: <Rocket />, title: "Startups & SMEs" },
                     ].map((item, index) => (
                         <div
                             key={index}
