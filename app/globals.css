@@ -1,10 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --navy: #1f4e79;
+  /* Brand colours */
+  --navy:   #1f4e79;
   --orange: #f28c28;
-  --black: #000000;
-  --white: #ffffff;
+  --black:  #000000;
+  --white:  #ffffff;
+
+  /* Opacity variants (used in components) */
+  --navy-5:   rgb(31 78 121 / 0.05);
+  --navy-10:  rgb(31 78 121 / 0.10);
+  --navy-20:  rgb(31 78 121 / 0.20);
+  --orange-30: rgb(242 140 40 / 0.30);
+  --orange-60: rgb(242 140 40 / 0.60);
+  --black-60: rgb(0 0 0 / 0.60);
+  --black-75: rgb(0 0 0 / 0.75);
+  --black-80: rgb(0 0 0 / 0.80);
+  --black-90: rgb(0 0 0 / 0.90);
+  --white-60: rgb(255 255 255 / 0.60);
+  --white-75: rgb(255 255 255 / 0.75);
 }
 
 * {
